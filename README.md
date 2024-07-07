@@ -21,33 +21,17 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository**
     
-    sh
-    
-    Copy code
-    
     `git clone https://github.com/MrHassanKhan/movie-app.git`
     
 2.  **Navigate to the project directory**
-    
-    sh
-    
-    Copy code
     
     `cd movie-app`
     
 3.  **Install dependencies**
     
-    sh
-    
-    Copy code
-    
     `npm install`
     
 4.  **Start the application**
-    
-    sh
-    
-    Copy code
     
     `npm start`
     
