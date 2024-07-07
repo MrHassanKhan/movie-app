@@ -11,5 +11,5 @@ import { HeaderComponent } from './core/components/header/header.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'netflix-clone-yt';
+  title = 'movie-app';
 }

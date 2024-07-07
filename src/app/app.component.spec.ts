@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'netflix-clone-yt' title`, () => {
+  it(`should have the 'movie app' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('netflix-clone-yt');
+    expect(app.title).toEqual('movie app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('netflix-clone-yt app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('movie app is running!');
   });
 });

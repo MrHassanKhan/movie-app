@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href='https://mrhassankhan.github.io/movie-app/'",
     "generate-env": "ng generate environments",
     "add-store": "ng add @ngrx/store",
     "add-effect": "ng add @ngrx/effects",
