@@ -1,6 +1,6 @@
 {
-  "name": "movie-dashboard",
-  "description": "Movie Dashboard Application",
+  "name": "movie-app",
+  "description": "Movie Application",
   "author": "Muhammad Hassan",
   "version": "0.0.0",
   "scripts": {
