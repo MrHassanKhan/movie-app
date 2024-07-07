@@ -37,7 +37,7 @@ jobs:
         run: |
           echo "Configuring environment variables"
           echo "export const environment = { production: true, baseUrl: 'https://api.themoviedb.org/3', apiKey: '${{ secrets.apiKey }}', apiReadKey: '${{secrets.apiReadKey}}' };" > src/environments/environment.ts
-          npm run build --base-href='/movie-app/'
+          npm run build --base-href='https://mrhassankhan.github.io/movie-app/'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
