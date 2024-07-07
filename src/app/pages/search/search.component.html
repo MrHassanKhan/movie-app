@@ -1,0 +1,10 @@
+<p class="font-semibold text-2xl my-3 ml-10">Keyword: {{query}}</p> 
+
+<ng-container  *ngIf="((movies$ |async)?.length || (tvShows$ |async)?.length);else notFound">
+    <app-movie-carousel [title]="'Result in Movies'" [videoContents]="(movies$ |async)" />
+    <app-movie-carousel [title]="'Result in TV Shows'" [videoContents]="(tvShows$ |async)" />
+</ng-container>
+
+<ng-template #notFound>
+    <p class="flex justify-center font-semibold text-2xl my-20">No Result Found</p>
+</ng-template>
